@@ -1,0 +1,48 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          submodules: true
+      - name: Detect node version
+        id: node-version
+        run: echo "::set-output name=NODE_VERSION::$(cat .node-version)"
+      - name: Setup node version
+        uses: actions/setup-node@master
+        with:
+          node-version: "${{ steps.node-version.outputs.NODE_VERSION }}"
+      - name: Yarn setup
+        run: |
+          npm install --global yarn
+      - id: yarn-cache
+        uses: actions/cache@master
+        with:
+          path: ./node_modules
+          key: yarn-${{ runner.os }}-${{ steps.node-version.outputs.NODE_VERSION }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-${{ runner.os }}-${{ steps.node-version.outputs.NODE_VERSION }}-${{ hashFiles('yarn.lock') }}
+            yarn-${{ runner.os }}-${{ steps.node-version.outputs.NODE_VERSION }}-
+            yarn-${{ runner.os }}-
+      - name: Yarn install
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
