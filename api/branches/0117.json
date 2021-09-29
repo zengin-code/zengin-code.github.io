@@ -43,7 +43,7 @@
   },
   "101":{
     "code":"101",
-    "name":"本店",
+    "name":"本店営業部",
     "kana":"ホンテン",
     "hira":"ほんてん",
     "roma":"honten"
@@ -138,13 +138,6 @@
     "kana":"ツクダ",
     "hira":"つくだ",
     "roma":"tsukuda"
-  },
-  "123":{
-    "code":"123",
-    "name":"新城出張所",
-    "kana":"シンジヨウ",
-    "hira":"しんじよう",
-    "roma":"shinjiyou"
   },
   "127":{
     "code":"127",
@@ -370,13 +363,6 @@
     "hira":"はちのへえきまえ",
     "roma":"hachinoheekimae"
   },
-  "323":{
-    "code":"323",
-    "name":"八戸ニュータウン",
-    "kana":"ハチノヘニユ－タウン",
-    "hira":"はちのへにゆ－たうん",
-    "roma":"hachinoheniyu-taun"
-  },
   "401":{
     "code":"401",
     "name":"黒石",
@@ -596,10 +582,10 @@
   },
   "803":{
     "code":"803",
-    "name":"剣吉",
-    "kana":"ケンヨシ",
-    "hira":"けんよし",
-    "roma":"kenyoshi"
+    "name":"南部",
+    "kana":"ナンブ",
+    "hira":"なんぶ",
+    "roma":"nambu"
   },
   "804":{
     "code":"804",

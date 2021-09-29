@@ -1,7 +1,7 @@
 {
   "001":{
     "code":"001",
-    "name":"本店",
+    "name":"本店営業部",
     "kana":"ホンテン",
     "hira":"ほんてん",
     "roma":"honten"
@@ -306,27 +306,6 @@
     "kana":"カケガワエキマエ",
     "hira":"かけがわえきまえ",
     "roma":"kakegawaekimae"
-  },
-  "124":{
-    "code":"124",
-    "name":"浜岡北",
-    "kana":"ハマオカキタ",
-    "hira":"はまおかきた",
-    "roma":"hamaokakita"
-  },
-  "125":{
-    "code":"125",
-    "name":"大東南",
-    "kana":"ダイトウミナミ",
-    "hira":"だいとうみなみ",
-    "roma":"daitouminami"
-  },
-  "126":{
-    "code":"126",
-    "name":"小笠東",
-    "kana":"オガサヒガシ",
-    "hira":"おがさひがし",
-    "roma":"ogasahigashi"
   },
   "127":{
     "code":"127",

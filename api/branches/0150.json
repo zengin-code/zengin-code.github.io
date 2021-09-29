@@ -372,7 +372,7 @@
   },
   "640":{
     "code":"640",
-    "name":"本店",
+    "name":"本店営業部",
     "kana":"ホンテン",
     "hira":"ほんてん",
     "roma":"honten"
@@ -510,13 +510,6 @@
     "hira":"ふじたかおか",
     "roma":"fujitakaoka"
   },
-  "679":{
-    "code":"679",
-    "name":"ウェルディ長泉出張所",
-    "kana":"ウエルデイナガイズミ",
-    "hira":"うえるでいながいずみ",
-    "roma":"uerudeinagaizumi"
-  },
   "681":{
     "code":"681",
     "name":"修善寺",
@@ -635,13 +628,6 @@
     "kana":"シズオカ",
     "hira":"しずおか",
     "roma":"shizuoka"
-  },
-  "721":{
-    "code":"721",
-    "name":"伝馬町",
-    "kana":"テンマチヨウ",
-    "hira":"てんまちよう",
-    "roma":"temmachiyou"
   },
   "722":{
     "code":"722",

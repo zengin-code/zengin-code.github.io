@@ -1,7 +1,7 @@
 {
   "001":{
     "code":"001",
-    "name":"本店",
+    "name":"本店営業部",
     "kana":"ホンテン",
     "hira":"ほんてん",
     "roma":"honten"
@@ -512,10 +512,10 @@
   },
   "085":{
     "code":"085",
-    "name":"徳島",
-    "kana":"トクシマ",
-    "hira":"とくしま",
-    "roma":"tokushima"
+    "name":"徳島法人部８５",
+    "kana":"トクシマハチゴ",
+    "hira":"とくしまはちご",
+    "roma":"tokushimahachigo"
   },
   "086":{
     "code":"086",
@@ -638,10 +638,10 @@
   },
   "201":{
     "code":"201",
-    "name":"新宿駅西口",
-    "kana":"シンジユクエキニシグチ",
-    "hira":"しんじゆくえきにしぐち",
-    "roma":"shinjiyukuekinishiguchi"
+    "name":"新宿２０１",
+    "kana":"シンジユクニゼロイチ",
+    "hira":"しんじゆくにぜろいち",
+    "roma":"shinjiyukunizeroichi"
   },
   "202":{
     "code":"202",
@@ -1105,6 +1105,13 @@
     "hira":"なごやきんゆうこうきよう",
     "roma":"nagoyakinyuukoukiyou"
   },
+  "522":{
+    "code":"522",
+    "name":"徳島法人部５２２",
+    "kana":"トクシマゴニニ",
+    "hira":"とくしまごにに",
+    "roma":"tokushimagonini"
+  },
   "526":{
     "code":"526",
     "name":"名古屋ライフプランサービス部",
@@ -1132,6 +1139,13 @@
     "kana":"トツトリシマネゴキユウニ",
     "hira":"とつとりしまねごきゆうに",
     "roma":"totsutorishimanegokiyuuni"
+  },
+  "595":{
+    "code":"595",
+    "name":"徳島法人部５９５",
+    "kana":"トクシマゴキユウゴ",
+    "hira":"とくしまごきゆうご",
+    "roma":"tokushimagokiyuugo"
   },
   "607":{
     "code":"607",
