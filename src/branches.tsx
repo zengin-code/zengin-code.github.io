@@ -1,5 +1,6 @@
-import React, { FunctionComponent, useEffect, useState } from "react";
-import { Html5Table, useDebouncedState, createFilter, useFilter } from 'window-table';
+import React, { FunctionComponent, useState } from "react";
+import { Table } from "react-fluid-table";
+import useFetch from "use-http";
 import { Loading } from "./loading";
 
 interface BranchData {
@@ -10,48 +11,25 @@ interface BranchData {
   readonly roma: string;
 }
 
-interface State {
-  loading: boolean;
-  branches: BranchData[];
-  invalid: boolean;
-}
-
-const filter = createFilter(['code', 'name', 'kana', 'hira', 'roma'])
-
 export const Branches: FunctionComponent<{ code: string }> = ({ code }) => {
-  const [state, change] = useState<State>({ loading: false, invalid: true, branches: [] });
-  const [text, debouncedText, setText] = useDebouncedState('');
-
-  useEffect(() => {
-    if (!code) {
-      change({ ...state, loading: false, branches: [], invalid: true });
-      return
+  const [ state, update ] = useState('');
+  const { loading, error, data } = useFetch<Record<string,BranchData>>(`/api/branches/${code}.json`, {}, [code])
+  const branches = data ? Object.values(data).sort((a, b) => parseInt(a.code, 10) - parseInt(b.code, 10)) : [];
+  const filteredBranches = branches.filter((branch) => {
+    if (state) {
+      return Object.values(branch).reduce((match, field) => match || field.includes(state), false);
+    } else {
+      return true;
     }
+  })
 
-    change({ ...state, loading: true, invalid: false });
-
-    fetch(`/api/branches/${code}.json`)
-      .then((res) => res.json())
-      .then((branches: { [key: string]: BranchData}) => {
-        return Object.values(branches).sort((a, b) => parseInt(a.code, 10) - parseInt(b.code, 10))
-      })
-      .then((branches) => {
-        change({ ...state, branches, loading: false, invalid: false });
-      })
-      .catch(() => {
-        change({ ...state, loading: false, invalid: true });
-      });
-  }, [code])
-
-  const branches = useFilter(filter, state.branches, debouncedText) as BranchData[];
-
-  if (state.loading) {
+  if (loading) {
     return <Loading message="Loading branches..." />;
   }
 
   return (
     <div className="section">
-      {state.invalid ? (
+      {error ? (
         <div className="notification has-text-centered">
           <p>Select a bank</p>
         </div>
@@ -64,8 +42,8 @@ export const Branches: FunctionComponent<{ code: string }> = ({ code }) => {
                   type="search"
                   className="input"
                   placeholder="ex: 0001 or ginza or ぎんざ or 銀座"
-                  value={text}
-                  onChange={(e) => setText(e.target.value)}
+                  value={state}
+                  onChange={(e) => update(e.target.value)}
                 />
                 <span className="icon is-left">
                   <i className="fas fa-search" />
@@ -73,15 +51,15 @@ export const Branches: FunctionComponent<{ code: string }> = ({ code }) => {
               </div>
             </div>
           </form>
-          <Html5Table
+          {data && <Table
             columns={[
-              { key: 'code', title: 'Code', width: 1 },
-              { key: 'name', title: 'Name', width: 2 },
+              { key: 'code', header: 'Code', width: 120 },
+              { key: 'name', header: 'Name' },
             ]}
-            data={branches}
+            data={filteredBranches}
             className="is-fullwidth"
-            style={{ height: 'min(30rem,100vh)', overflow: 'hidden' }}
-          />
+            tableHeight={300}
+           />}
           <div className="notification is-info is-light mt-3">
             <p>This data by <a href={`/api/branches/${code}.json`}>https://zengin-code.github.io/api/branches/{code}.json</a> .</p>
             <p>You can use this JSON like API.</p>

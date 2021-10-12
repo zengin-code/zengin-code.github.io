@@ -6,7 +6,9 @@ import { SearchContextProvider } from "./searchContext";
 export const Search: FunctionComponent = () => {
   const [state, update] = useState({ code: '' });
   const { code } = state;
-  const change = useCallback((code: string) => update({ code }), [update])
+  const change = useCallback((code: string) => {
+    update(() => ({ code }))
+  }, [update])
 
   return (
     <SearchContextProvider value={{ code, change }}>

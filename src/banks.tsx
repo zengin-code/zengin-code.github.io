@@ -1,7 +1,8 @@
-import React, { FunctionComponent, HTMLAttributes, useEffect, useState } from "react";
-import { Html5Table, useDebouncedState, createFilter, useFilter } from 'window-table';
-import { Loading } from "./loading";
+import React, { FunctionComponent, useCallback, useState } from "react";
 import { useSearchContext } from "./searchContext";
+import { Table } from "react-fluid-table";
+import useFetch from 'use-http';
+import { Loading } from "./loading";
 
 interface BankData {
   readonly code: string;
@@ -11,51 +12,24 @@ interface BankData {
   readonly roma: string;
 }
 
-interface State {
-  loading: boolean;
-  banks: BankData[];
-}
-
-const filter = createFilter(['code', 'name', 'kana', 'hira', 'roma'])
-
-const Row: FunctionComponent<HTMLAttributes<HTMLTableRowElement> & { row: BankData }> = ({ row, className, ...props }) => {
-  const ctx = useSearchContext();
-
-  return (
-    <tr
-      {...props}
-      onClick={() => {
-        ctx.change(row.code);
-      }}
-      className={`${className} ${row.code === ctx.code ? 'is-selected' : ''}`}
-    />
-  );
-}
-
 export const Banks: FunctionComponent = () => {
-  const [state, change] = useState<State>({ loading: false, banks: [] });
-  const [text, debouncedText, setText] = useDebouncedState('');
-
-  useEffect(() => {
-    change({ ...state, loading: true });
-    fetch('/api/banks.json')
-      .then((res) => res.json())
-      .then((banks: { [key: string]: BankData}) => {
-        return Object.values(banks).sort((a, b) => parseInt(a.code, 10) - parseInt(b.code, 10))
-      })
-      .then((banks) => {
-        change({ ...state, banks, loading: false })
-      })
-      .catch(() => {
-        change({ ...state, loading: false });
-      })
-  }, [])
-
-  const banks = useFilter(filter, state.banks, debouncedText) as BankData[];
-
-  if (state.loading) {
-    return <Loading message="Loading banks..." />;
-  }
+  const ctx = useSearchContext();
+  const [state, update] = useState('');
+  const { loading, error, data } = useFetch<Record<string, BankData>>('/api/banks.json', {}, []);
+  const banks = data ? Object.values(data).sort((a, b) => parseInt(a.code, 10) - parseInt(b.code, 10)) : [];
+  const filteredBanks = banks.filter((bank) => {
+    if (state) {
+      return Object.values(bank).reduce((match, field) => match || field.includes(state), false);
+    } else {
+      return true;
+    }
+  })
+  const onRowClick = useCallback((_, { index }) => {
+    const bank = filteredBanks[index];
+    if (bank) {
+      ctx.change(bank.code)
+    }
+  }, [ctx.change, filteredBanks])
 
   return (
     <div className="section">
@@ -66,8 +40,8 @@ export const Banks: FunctionComponent = () => {
               type="search"
               className="input"
               placeholder="ex: 0005 or みつびし or mitsubishi or 三菱"
-              value={text}
-              onChange={(e) => setText(e.target.value)}
+              value={state}
+              onChange={(e) => update(e.target.value)}
             />
             <span className="icon is-left">
               <i className="fas fa-search" />
@@ -75,16 +49,18 @@ export const Banks: FunctionComponent = () => {
           </div>
         </div>
       </form>
-      <Html5Table
+      { error ? <div>{error.message}</div> : null }
+      { loading ? <Loading message="loading banks..." /> : null }
+      { banks.length > 0 && <Table
         columns={[
-          { key: 'code', title: 'Code', width: 1 },
-          { key: 'name', title: 'Name', width: 2 },
+          { key: 'code', header: 'Code', width: 120 },
+          { key: 'name', header: 'Name' },
         ]}
-        data={banks}
+        data={filteredBanks}
+        tableHeight={300}
         className="is-fullwidth"
-        style={{ height: 'min(30rem,100vh)', overflow: 'hidden' }}
-        Row={Row}
-      />
+        onRowClick={onRowClick}
+      /> }
       <div className="notification is-info is-light mt-3">
         <p>This data by <a href="/api/banks.json">https://zengin-code.github.io/api/banks.json</a> .</p>
         <p>You can use this JSON like API.</p>
