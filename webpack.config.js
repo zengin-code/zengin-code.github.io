@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
+  mode: process.env['NODE_ENV'] === 'production' ? 'production' : 'development',
   entry: {
     index: './src/index.tsx',
   },
@@ -58,7 +59,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.mjs', '.cjs', '.jsx', '.js'],
   },
   devServer: {
-    contentBase: join(__dirname, 'dist'),
+    static: join(__dirname, 'dist'),
     compress: true,
     port: 9000
   },
