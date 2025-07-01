@@ -370,6 +370,13 @@
     "hira":"あきた",
     "roma":"akita"
   },
+  "193":{
+    "code":"193",
+    "name":"みよしスマート",
+    "kana":"ミヨシスマ－ト",
+    "hira":"みよしすま－と",
+    "roma":"miyoshisuma-to"
+  },
   "195":{
     "code":"195",
     "name":"須屋",
@@ -439,13 +446,6 @@
     "kana":"アラオチユウオウ",
     "hira":"あらおちゆうおう",
     "roma":"araochiyuuou"
-  },
-  "209":{
-    "code":"209",
-    "name":"八幡台出張所",
-    "kana":"ハチマンダイ",
-    "hira":"はちまんだい",
-    "roma":"hachimandai"
   },
   "210":{
     "code":"210",
@@ -653,9 +653,9 @@
   "254":{
     "code":"254",
     "name":"八代市役所",
-    "kana":"ヤシロシヤクシヨ",
-    "hira":"やしろしやくしよ",
-    "roma":"yashiroshiyakushiyo"
+    "kana":"ヤツシロシヤクシヨ",
+    "hira":"やつしろしやくしよ",
+    "roma":"yatsushiroshiyakushiyo"
   },
   "255":{
     "code":"255",

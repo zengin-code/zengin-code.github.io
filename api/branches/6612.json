@@ -15,24 +15,10 @@
   },
   "055":{
     "code":"055",
-    "name":"国府",
-    "kana":"コウ",
-    "hira":"こう",
-    "roma":"kou"
-  },
-  "063":{
-    "code":"063",
-    "name":"御油",
-    "kana":"ゴユ",
-    "hira":"ごゆ",
-    "roma":"goyu"
-  },
-  "080":{
-    "code":"080",
-    "name":"蔵子",
-    "kana":"ゾウシ",
-    "hira":"ぞうし",
-    "roma":"zoushi"
+    "name":"こうごゆ",
+    "kana":"コウゴユ",
+    "hira":"こうごゆ",
+    "roma":"kougoyu"
   },
   "098":{
     "code":"098",
@@ -89,12 +75,5 @@
     "kana":"ミト",
     "hira":"みと",
     "roma":"mito"
-  },
-  "811":{
-    "code":"811",
-    "name":"広石",
-    "kana":"ヒロイシ",
-    "hira":"ひろいし",
-    "roma":"hiroishi"
   }
 }

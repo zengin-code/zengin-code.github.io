@@ -475,13 +475,6 @@
     "hira":"つちうらなみき",
     "roma":"tsuchiuranamiki"
   },
-  "069":{
-    "code":"069",
-    "name":"泉町",
-    "kana":"イズミチヨウ",
-    "hira":"いずみちよう",
-    "roma":"izumichiyou"
-  },
   "070":{
     "code":"070",
     "name":"つくば中央",
@@ -503,27 +496,6 @@
     "hira":"さわ",
     "roma":"sawa"
   },
-  "073":{
-    "code":"073",
-    "name":"田彦",
-    "kana":"タビコ",
-    "hira":"たびこ",
-    "roma":"tabiko"
-  },
-  "074":{
-    "code":"074",
-    "name":"津田",
-    "kana":"ツダ",
-    "hira":"つだ",
-    "roma":"tsuda"
-  },
-  "075":{
-    "code":"075",
-    "name":"宮田",
-    "kana":"ミヤタ",
-    "hira":"みやた",
-    "roma":"miyata"
-  },
   "076":{
     "code":"076",
     "name":"高萩",
@@ -544,27 +516,6 @@
     "kana":"ジユウオウ",
     "hira":"じゆうおう",
     "roma":"jiyuuou"
-  },
-  "079":{
-    "code":"079",
-    "name":"菅谷",
-    "kana":"スガヤ",
-    "hira":"すがや",
-    "roma":"sugaya"
-  },
-  "083":{
-    "code":"083",
-    "name":"台原",
-    "kana":"ダイハラ",
-    "hira":"だいはら",
-    "roma":"daihara"
-  },
-  "090":{
-    "code":"090",
-    "name":"赤塚駅前出張所",
-    "kana":"アカツカエキマエ",
-    "hira":"あかつかえきまえ",
-    "roma":"akatsukaekimae"
   },
   "091":{
     "code":"091",

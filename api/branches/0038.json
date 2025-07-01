@@ -85,10 +85,10 @@
   },
   "203":{
     "code":"203",
-    "name":"Ｔポイント",
-    "kana":"Ｔポイント",
-    "hira":"Ｔぽいんと",
-    "roma":"tpointo"
+    "name":"Ｖポイント",
+    "kana":"Ｖポイント",
+    "hira":"Ｖぽいんと",
+    "roma":"vpointo"
   },
   "204":{
     "code":"204",
@@ -188,6 +188,13 @@
     "hira":"けいおうＮＥＯＢＡＮＫ",
     "roma":"keiouneobank"
   },
+  "309":{
+    "code":"309",
+    "name":"マツイ",
+    "kana":"マツイ",
+    "hira":"まつい",
+    "roma":"matsui"
+  },
   "401":{
     "code":"401",
     "name":"ひめぎん",
@@ -208,5 +215,89 @@
     "kana":"クジラ",
     "hira":"くじら",
     "roma":"kujira"
+  },
+  "404":{
+    "code":"404",
+    "name":"ＳＢＩＦＸトレード",
+    "kana":"ＳＢＩＦＸトレ－ド",
+    "hira":"ＳＢＩＦＸとれ－ど",
+    "roma":"sbifxtore-do"
+  },
+  "405":{
+    "code":"405",
+    "name":"ライブドア",
+    "kana":"ライブドア",
+    "hira":"らいぶどあ",
+    "roma":"raibudoa"
+  },
+  "406":{
+    "code":"406",
+    "name":"ネオバンクビジネス",
+    "kana":"ネオバンクビジネス",
+    "hira":"ねおばんくびじねす",
+    "roma":"neobankubijinesu"
+  },
+  "407":{
+    "code":"407",
+    "name":"ＢｉｌｌＯｎｅ",
+    "kana":"ＢＩＬＬＯＮＥ",
+    "hira":"ＢＩＬＬＯＮＥ",
+    "roma":"billone"
+  },
+  "408":{
+    "code":"408",
+    "name":"ヘーベル",
+    "kana":"ヘ－ベル",
+    "hira":"へ－べる",
+    "roma":"he-beru"
+  },
+  "409":{
+    "code":"409",
+    "name":"サクラ",
+    "kana":"サクラ",
+    "hira":"さくら",
+    "roma":"sakura"
+  },
+  "501":{
+    "code":"501",
+    "name":"ゆたかバンク",
+    "kana":"ユタカバンク",
+    "hira":"ゆたかばんく",
+    "roma":"yutakabanku"
+  },
+  "502":{
+    "code":"502",
+    "name":"中電カテエネ",
+    "kana":"チユウデンカテエネ",
+    "hira":"ちゆうでんかてえね",
+    "roma":"chiyuudenkateene"
+  },
+  "503":{
+    "code":"503",
+    "name":"ＦＡＮＹ",
+    "kana":"ＦＡＮＹ",
+    "hira":"ＦＡＮＹ",
+    "roma":"fany"
+  },
+  "504":{
+    "code":"504",
+    "name":"東宝ハウス",
+    "kana":"トウホウハウス",
+    "hira":"とうほうはうす",
+    "roma":"touhouhausu"
+  },
+  "509":{
+    "code":"509",
+    "name":"ツバキ",
+    "kana":"ツバキ",
+    "hira":"つばき",
+    "roma":"tsubaki"
+  },
+  "609":{
+    "code":"609",
+    "name":"カエデ",
+    "kana":"カエデ",
+    "hira":"かえで",
+    "roma":"kaede"
   }
 }

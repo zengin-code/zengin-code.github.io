@@ -55,6 +55,13 @@
     "hira":"ご－るでんげ－と",
     "roma":"go-rudenge-to"
   },
+  "101":{
+    "code":"101",
+    "name":"グランリバー",
+    "kana":"グランリバ－",
+    "hira":"ぐらんりば－",
+    "roma":"guranriba-"
+  },
   "201":{
     "code":"201",
     "name":"ピクシブ",
@@ -75,5 +82,33 @@
     "kana":"イグニカ",
     "hira":"いぐにか",
     "roma":"igunika"
+  },
+  "204":{
+    "code":"204",
+    "name":"アンディー",
+    "kana":"アンデイ－",
+    "hira":"あんでい－",
+    "roma":"andei-"
+  },
+  "205":{
+    "code":"205",
+    "name":"外為どっとコム",
+    "kana":"ガイタメドツトコム",
+    "hira":"がいためどつとこむ",
+    "roma":"gaitamedotsutokomu"
+  },
+  "206":{
+    "code":"206",
+    "name":"ミクチャ",
+    "kana":"ミクチヤ",
+    "hira":"みくちや",
+    "roma":"mikuchiya"
+  },
+  "207":{
+    "code":"207",
+    "name":"丸善ジュンク堂",
+    "kana":"マルゼンジユンクドウ",
+    "hira":"まるぜんじゆんくどう",
+    "roma":"maruzenjiyunkudou"
   }
 }

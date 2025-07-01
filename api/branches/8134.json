@@ -190,31 +190,10 @@
   },
   "196":{
     "code":"196",
-    "name":"愛宕",
-    "kana":"アタゴ",
-    "hira":"あたご",
-    "roma":"atago"
-  },
-  "197":{
-    "code":"197",
-    "name":"灘",
-    "kana":"ナダ",
-    "hira":"なだ",
-    "roma":"nada"
-  },
-  "198":{
-    "code":"198",
-    "name":"平田",
-    "kana":"ヒラタ",
-    "hira":"ひらた",
-    "roma":"hirata"
-  },
-  "199":{
-    "code":"199",
-    "name":"海土路",
-    "kana":"ミドロ",
-    "hira":"みどろ",
-    "roma":"midoro"
+    "name":"岩国南",
+    "kana":"イワクニミナミ",
+    "hira":"いわくにみなみ",
+    "roma":"iwakuniminami"
   },
   "200":{
     "code":"200",
@@ -292,13 +271,6 @@
     "kana":"イホノシヨウ",
     "hira":"いほのしよう",
     "roma":"ihonoshiyou"
-  },
-  "265":{
-    "code":"265",
-    "name":"平郡",
-    "kana":"ヘイグン",
-    "hira":"へいぐん",
-    "roma":"heigun"
   },
   "266":{
     "code":"266",

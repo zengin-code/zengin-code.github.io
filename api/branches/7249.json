@@ -27,13 +27,6 @@
     "hira":"みき",
     "roma":"miki"
   },
-  "023":{
-    "code":"023",
-    "name":"別所",
-    "kana":"ベツシヨ",
-    "hira":"べつしよ",
-    "roma":"betsushiyo"
-  },
   "030":{
     "code":"030",
     "name":"吉川",
@@ -47,13 +40,6 @@
     "kana":"ニシワキ",
     "hira":"にしわき",
     "roma":"nishiwaki"
-  },
-  "043":{
-    "code":"043",
-    "name":"重春",
-    "kana":"シゲハル",
-    "hira":"しげはる",
-    "roma":"shigeharu"
   },
   "045":{
     "code":"045",

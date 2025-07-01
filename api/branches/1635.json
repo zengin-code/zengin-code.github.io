@@ -167,13 +167,6 @@
     "hira":"かみきた",
     "roma":"kamikita"
   },
-  "028":{
-    "code":"028",
-    "name":"中津",
-    "kana":"ナカツ",
-    "hira":"なかつ",
-    "roma":"nakatsu"
-  },
   "030":{
     "code":"030",
     "name":"森ノ宮",
@@ -544,13 +537,6 @@
     "kana":"トヨウラ",
     "hira":"とようら",
     "roma":"toyoura"
-  },
-  "148":{
-    "code":"148",
-    "name":"法善寺",
-    "kana":"ホウゼンジ",
-    "hira":"ほうぜんじ",
-    "roma":"houzenji"
   },
   "155":{
     "code":"155",

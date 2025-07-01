@@ -55,13 +55,6 @@
     "hira":"おごと",
     "roma":"ogoto"
   },
-  "118":{
-    "code":"118",
-    "name":"仰木出張所",
-    "kana":"オオギ",
-    "hira":"おおぎ",
-    "roma":"oogi"
-  },
   "120":{
     "code":"120",
     "name":"堅田中央",
@@ -69,26 +62,12 @@
     "hira":"かたたちゆうおう",
     "roma":"katatachiyuuou"
   },
-  "122":{
-    "code":"122",
-    "name":"伊香立出張所",
-    "kana":"イカダチ",
-    "hira":"いかだち",
-    "roma":"ikadachi"
-  },
   "124":{
     "code":"124",
     "name":"志賀町",
     "kana":"シガチヨウ",
     "hira":"しがちよう",
     "roma":"shigachiyou"
-  },
-  "126":{
-    "code":"126",
-    "name":"小松出張所",
-    "kana":"コマツ",
-    "hira":"こまつ",
-    "roma":"komatsu"
   },
   "131":{
     "code":"131",
@@ -181,27 +160,6 @@
     "hira":"りつとうちゆうおう",
     "roma":"ritsutouchiyuuou"
   },
-  "157":{
-    "code":"157",
-    "name":"出庭",
-    "kana":"デバ",
-    "hira":"でば",
-    "roma":"deba"
-  },
-  "158":{
-    "code":"158",
-    "name":"小柿",
-    "kana":"オガキ",
-    "hira":"おがき",
-    "roma":"ogaki"
-  },
-  "161":{
-    "code":"161",
-    "name":"吉身",
-    "kana":"ヨシミ",
-    "hira":"よしみ",
-    "roma":"yoshimi"
-  },
   "162":{
     "code":"162",
     "name":"赤野井",
@@ -215,13 +173,6 @@
     "kana":"アケトミ",
     "hira":"あけとみ",
     "roma":"aketomi"
-  },
-  "164":{
-    "code":"164",
-    "name":"河西",
-    "kana":"カワニシ",
-    "hira":"かわにし",
-    "roma":"kawanishi"
   },
   "165":{
     "code":"165",

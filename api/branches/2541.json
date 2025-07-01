@@ -6,13 +6,6 @@
     "hira":"ひらの",
     "roma":"hirano"
   },
-  "005":{
-    "code":"005",
-    "name":"田辺",
-    "kana":"タナベ",
-    "hira":"たなべ",
-    "roma":"tanabe"
-  },
   "006":{
     "code":"006",
     "name":"堺",
@@ -20,26 +13,12 @@
     "hira":"さかい",
     "roma":"sakai"
   },
-  "007":{
-    "code":"007",
-    "name":"道明寺",
-    "kana":"ドウミヨウジ",
-    "hira":"どうみようじ",
-    "roma":"doumiyouji"
-  },
   "010":{
     "code":"010",
     "name":"本店営業部",
     "kana":"ホンテン",
     "hira":"ほんてん",
     "roma":"honten"
-  },
-  "011":{
-    "code":"011",
-    "name":"香里",
-    "kana":"コウリ",
-    "hira":"こうり",
-    "roma":"kouri"
   },
   "013":{
     "code":"013",
@@ -75,13 +54,6 @@
     "kana":"キシワダ",
     "hira":"きしわだ",
     "roma":"kishiwada"
-  },
-  "022":{
-    "code":"022",
-    "name":"高石",
-    "kana":"タカイシ",
-    "hira":"たかいし",
-    "roma":"takaishi"
   },
   "023":{
     "code":"023",
@@ -124,5 +96,19 @@
     "kana":"アマミ",
     "hira":"あまみ",
     "roma":"amami"
+  },
+  "029":{
+    "code":"029",
+    "name":"かけはし",
+    "kana":"カケハシ",
+    "hira":"かけはし",
+    "roma":"kakehashi"
+  },
+  "030":{
+    "code":"030",
+    "name":"御堂筋",
+    "kana":"ミドウスジ",
+    "hira":"みどうすじ",
+    "roma":"midousuji"
   }
 }

@@ -412,6 +412,76 @@
     "hira":"だいいちせいめい",
     "roma":"daiichiseimei"
   },
+  "341":{
+    "code":"341",
+    "name":"ＪＲＥはやぶさ",
+    "kana":"ジエイア－ルイ－ハヤブサ",
+    "hira":"じえいあ－るい－はやぶさ",
+    "roma":"jieia-rui-hayabusa"
+  },
+  "342":{
+    "code":"342",
+    "name":"ＪＲＥとき",
+    "kana":"ジエイア－ルイ－トキ",
+    "hira":"じえいあ－るい－とき",
+    "roma":"jieia-rui-toki"
+  },
+  "343":{
+    "code":"343",
+    "name":"ＪＲＥこまち",
+    "kana":"ジエイア－ルイ－コマチ",
+    "hira":"じえいあ－るい－こまち",
+    "roma":"jieia-rui-komachi"
+  },
+  "344":{
+    "code":"344",
+    "name":"ＪＲＥつばさ",
+    "kana":"ジエイア－ルイ－ツバサ",
+    "hira":"じえいあ－るい－つばさ",
+    "roma":"jieia-rui-tsubasa"
+  },
+  "345":{
+    "code":"345",
+    "name":"ＪＲＥあさま",
+    "kana":"ジエイア－ルイ－アサマ",
+    "hira":"じえいあ－るい－あさま",
+    "roma":"jieia-rui-asama"
+  },
+  "346":{
+    "code":"346",
+    "name":"ＪＲＥやまびこ",
+    "kana":"ジエイア－ルイ－ヤマビコ",
+    "hira":"じえいあ－るい－やまびこ",
+    "roma":"jieia-rui-yamabiko"
+  },
+  "347":{
+    "code":"347",
+    "name":"ＪＲＥあずさ",
+    "kana":"ジエイア－ルイ－アズサ",
+    "hira":"じえいあ－るい－あずさ",
+    "roma":"jieia-rui-azusa"
+  },
+  "348":{
+    "code":"348",
+    "name":"ＪＲＥひたち",
+    "kana":"ジエイア－ルイ－ヒタチ",
+    "hira":"じえいあ－るい－ひたち",
+    "roma":"jieia-rui-hitachi"
+  },
+  "349":{
+    "code":"349",
+    "name":"ＪＲＥ踊り子",
+    "kana":"ジエイア－ルイ－オドリコ",
+    "hira":"じえいあ－るい－おどりこ",
+    "roma":"jieia-rui-odoriko"
+  },
+  "351":{
+    "code":"351",
+    "name":"ＪＲＥわかしお",
+    "kana":"ジエイア－ルイ－ワカシオ",
+    "hira":"じえいあ－るい－わかしお",
+    "roma":"jieia-rui-wakashio"
+  },
   "701":{
     "code":"701",
     "name":"法人第一",
@@ -505,10 +575,10 @@
   },
   "714":{
     "code":"714",
-    "name":"楽天第四",
-    "kana":"ラクテンダイヨン",
-    "hira":"らくてんだいよん",
-    "roma":"rakutendaiyon"
+    "name":"法人第十四",
+    "kana":"ホウジンダイジユウヨン",
+    "hira":"ほうじんだいじゆうよん",
+    "roma":"houjindaijiyuuyon"
   },
   "715":{
     "code":"715",
@@ -551,5 +621,54 @@
     "kana":"ホウジンダイニジユウ",
     "hira":"ほうじんだいにじゆう",
     "roma":"houjindainijiyuu"
+  },
+  "721":{
+    "code":"721",
+    "name":"法人第二十一",
+    "kana":"ホウジンダイニジユウイチ",
+    "hira":"ほうじんだいにじゆういち",
+    "roma":"houjindainijiyuuichi"
+  },
+  "722":{
+    "code":"722",
+    "name":"法人第二十二",
+    "kana":"ホウジンダイニジユウニ",
+    "hira":"ほうじんだいにじゆうに",
+    "roma":"houjindainijiyuuni"
+  },
+  "723":{
+    "code":"723",
+    "name":"法人第二十三",
+    "kana":"ホウジンダイニジユウサン",
+    "hira":"ほうじんだいにじゆうさん",
+    "roma":"houjindainijiyuusan"
+  },
+  "724":{
+    "code":"724",
+    "name":"法人第二十四",
+    "kana":"ホウジンダイニジユウヨン",
+    "hira":"ほうじんだいにじゆうよん",
+    "roma":"houjindainijiyuuyon"
+  },
+  "725":{
+    "code":"725",
+    "name":"法人第二十五",
+    "kana":"ホウジンダイニジユウゴ",
+    "hira":"ほうじんだいにじゆうご",
+    "roma":"houjindainijiyuugo"
+  },
+  "726":{
+    "code":"726",
+    "name":"楽天証券第三",
+    "kana":"ラクテンシヨウケンダイサン",
+    "hira":"らくてんしようけんだいさん",
+    "roma":"rakutenshiyoukendaisan"
+  },
+  "727":{
+    "code":"727",
+    "name":"楽天証券第四",
+    "kana":"ラクテンシヨウケンダイヨン",
+    "hira":"らくてんしようけんだいよん",
+    "roma":"rakutenshiyoukendaiyon"
   }
 }

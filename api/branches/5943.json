@@ -13,13 +13,6 @@
     "hira":"にし",
     "roma":"nishi"
   },
-  "103":{
-    "code":"103",
-    "name":"西駅前出張所",
-    "kana":"ニシエキマエ",
-    "hira":"にしえきまえ",
-    "roma":"nishiekimae"
-  },
   "107":{
     "code":"107",
     "name":"南",
@@ -54,12 +47,5 @@
     "kana":"エヌマ",
     "hira":"えぬま",
     "roma":"enuma"
-  },
-  "120":{
-    "code":"120",
-    "name":"山中出張所",
-    "kana":"ヤマナカ",
-    "hira":"やまなか",
-    "roma":"yamanaka"
   }
 }

@@ -104,13 +104,6 @@
     "hira":"まるおか",
     "roma":"maruoka"
   },
-  "102":{
-    "code":"102",
-    "name":"金津",
-    "kana":"カナヅ",
-    "hira":"かなづ",
-    "roma":"kanadu"
-  },
   "103":{
     "code":"103",
     "name":"坂井",
@@ -141,7 +134,7 @@
   },
   "121":{
     "code":"121",
-    "name":"芦原",
+    "name":"あわら",
     "kana":"アワラ",
     "hira":"あわら",
     "roma":"awara"
@@ -223,26 +216,12 @@
     "hira":"さばえほんまち",
     "roma":"sabaehommachi"
   },
-  "214":{
-    "code":"214",
-    "name":"神中",
-    "kana":"カミナカ",
-    "hira":"かみなか",
-    "roma":"kaminaka"
-  },
   "301":{
     "code":"301",
     "name":"武生営業部",
     "kana":"タケフ",
     "hira":"たけふ",
     "roma":"takefu"
-  },
-  "305":{
-    "code":"305",
-    "name":"味真野",
-    "kana":"アジマノ",
-    "hira":"あじまの",
-    "roma":"ajimano"
   },
   "306":{
     "code":"306",
@@ -257,13 +236,6 @@
     "kana":"イケダ",
     "hira":"いけだ",
     "roma":"ikeda"
-  },
-  "309":{
-    "code":"309",
-    "name":"村国",
-    "kana":"ムラクニ",
-    "hira":"むらくに",
-    "roma":"murakuni"
   },
   "314":{
     "code":"314",

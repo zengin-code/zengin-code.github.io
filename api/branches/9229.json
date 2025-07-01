@@ -41,33 +41,12 @@
     "hira":"よしの",
     "roma":"yoshino"
   },
-  "036":{
-    "code":"036",
-    "name":"下伊敷",
-    "kana":"シモイシキ",
-    "hira":"しもいしき",
-    "roma":"shimoishiki"
-  },
   "037":{
     "code":"037",
     "name":"伊敷",
     "kana":"イシキ",
     "hira":"いしき",
     "roma":"ishiki"
-  },
-  "041":{
-    "code":"041",
-    "name":"花野",
-    "kana":"ケノ",
-    "hira":"けの",
-    "roma":"keno"
-  },
-  "101":{
-    "code":"101",
-    "name":"小野",
-    "kana":"オノ",
-    "hira":"おの",
-    "roma":"ono"
   },
   "103":{
     "code":"103",
@@ -78,10 +57,10 @@
   },
   "105":{
     "code":"105",
-    "name":"中山",
-    "kana":"チユウザン",
-    "hira":"ちゆうざん",
-    "roma":"chiyuuzan"
+    "name":"谷山北",
+    "kana":"タニヤマキタ",
+    "hira":"たにやまきた",
+    "roma":"taniyamakita"
   },
   "108":{
     "code":"108",
@@ -117,13 +96,6 @@
     "kana":"タニヤマ",
     "hira":"たにやま",
     "roma":"taniyama"
-  },
-  "118":{
-    "code":"118",
-    "name":"山田",
-    "kana":"ヤマダ",
-    "hira":"やまだ",
-    "roma":"yamada"
   },
   "201":{
     "code":"201",

@@ -69,26 +69,12 @@
     "hira":"かみいぐさ",
     "roma":"kamiigusa"
   },
-  "013":{
-    "code":"013",
-    "name":"徳丸",
-    "kana":"トクマル",
-    "hira":"とくまる",
-    "roma":"tokumaru"
-  },
   "014":{
     "code":"014",
     "name":"西新宿",
     "kana":"ニシシンジユク",
     "hira":"にししんじゆく",
     "roma":"nishishinjiyuku"
-  },
-  "015":{
-    "code":"015",
-    "name":"石神井台",
-    "kana":"シヤクジイダイ",
-    "hira":"しやくじいだい",
-    "roma":"shiyakujiidai"
   },
   "016":{
     "code":"016",

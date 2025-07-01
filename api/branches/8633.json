@@ -20,13 +20,6 @@
     "hira":"いたづけ",
     "roma":"itaduke"
   },
-  "021":{
-    "code":"021",
-    "name":"那珂",
-    "kana":"ナカ",
-    "hira":"なか",
-    "roma":"naka"
-  },
   "022":{
     "code":"022",
     "name":"雑餉隈",
@@ -55,13 +48,6 @@
     "hira":"みやけ",
     "roma":"miyake"
   },
-  "041":{
-    "code":"041",
-    "name":"玉川",
-    "kana":"タマガワ",
-    "hira":"たまがわ",
-    "roma":"tamagawa"
-  },
   "050":{
     "code":"050",
     "name":"那の川",
@@ -82,13 +68,6 @@
     "kana":"ヒイカワ",
     "hira":"ひいかわ",
     "roma":"hiikawa"
-  },
-  "071":{
-    "code":"071",
-    "name":"堤",
-    "kana":"ツツミ",
-    "hira":"つつみ",
-    "roma":"tsutsumi"
   },
   "080":{
     "code":"080",
@@ -152,13 +131,6 @@
     "kana":"トギレ",
     "hira":"とぎれ",
     "roma":"togire"
-  },
-  "122":{
-    "code":"122",
-    "name":"下山門",
-    "kana":"シモヤマト",
-    "hira":"しもやまと",
-    "roma":"shimoyamato"
   },
   "130":{
     "code":"130",

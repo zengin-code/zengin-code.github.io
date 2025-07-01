@@ -36,10 +36,10 @@
   },
   "120":{
     "code":"120",
-    "name":"ペイルド",
-    "kana":"ペイルド",
-    "hira":"ぺいるど",
-    "roma":"peirudo"
+    "name":"法人第十一営業部",
+    "kana":"ホウジンダイジユウイチ",
+    "hira":"ほうじんだいじゆういち",
+    "roma":"houjindaijiyuuichi"
   },
   "121":{
     "code":"121",
@@ -50,10 +50,38 @@
   },
   "122":{
     "code":"122",
-    "name":"エムジェイエス",
-    "kana":"エムジエイエス",
-    "hira":"えむじえいえす",
-    "roma":"emujieiesu"
+    "name":"法人第十二営業部",
+    "kana":"ホウジンダイジユウニ",
+    "hira":"ほうじんだいじゆうに",
+    "roma":"houjindaijiyuuni"
+  },
+  "123":{
+    "code":"123",
+    "name":"ブルーバンク",
+    "kana":"ブル－バンク",
+    "hira":"ぶる－ばんく",
+    "roma":"buru-banku"
+  },
+  "124":{
+    "code":"124",
+    "name":"アップサイダー",
+    "kana":"アツプサイダ－",
+    "hira":"あつぷさいだ－",
+    "roma":"atsupusaida-"
+  },
+  "125":{
+    "code":"125",
+    "name":"フリー",
+    "kana":"フリ－",
+    "hira":"ふり－",
+    "roma":"furi-"
+  },
+  "126":{
+    "code":"126",
+    "name":"インボックス",
+    "kana":"インボツクス",
+    "hira":"いんぼつくす",
+    "roma":"imbotsukusu"
   },
   "201":{
     "code":"201",
@@ -124,6 +152,13 @@
     "kana":"カエルカ－ド",
     "hira":"かえるか－ど",
     "roma":"kaeruka-do"
+  },
+  "324":{
+    "code":"324",
+    "name":"岡三バンク",
+    "kana":"オカサンバンク",
+    "hira":"おかさんばんく",
+    "roma":"okasambanku"
   },
   "401":{
     "code":"401",
@@ -309,10 +344,10 @@
   },
   "526":{
     "code":"526",
-    "name":"のはら",
-    "kana":"ノハラ",
-    "hira":"のはら",
-    "roma":"nohara"
+    "name":"０１銀行入金",
+    "kana":"ゼロワンギンコウニユウキン",
+    "hira":"ぜろわんぎんこうにゆうきん",
+    "roma":"zerowanginkouniyuukin"
   },
   "527":{
     "code":"527",
@@ -477,10 +512,10 @@
   },
   "550":{
     "code":"550",
-    "name":"エッグ",
-    "kana":"エツグ",
-    "hira":"えつぐ",
-    "roma":"etsugu"
+    "name":"岡三証券振込",
+    "kana":"オカサンシヨウケンフリコミ",
+    "hira":"おかさんしようけんふりこみ",
+    "roma":"okasanshiyoukenfurikomi"
   },
   "551":{
     "code":"551",

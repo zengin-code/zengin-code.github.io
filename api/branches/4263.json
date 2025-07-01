@@ -27,13 +27,6 @@
     "hira":"とうかい",
     "roma":"toukai"
   },
-  "011":{
-    "code":"011",
-    "name":"瓜連",
-    "kana":"ウリヅラ",
-    "hira":"うりづら",
-    "roma":"uridura"
-  },
   "012":{
     "code":"012",
     "name":"那珂",
@@ -97,26 +90,12 @@
     "hira":"だいご",
     "roma":"daigo"
   },
-  "022":{
-    "code":"022",
-    "name":"山方",
-    "kana":"ヤマガタ",
-    "hira":"やまがた",
-    "roma":"yamagata"
-  },
   "024":{
     "code":"024",
     "name":"太田",
     "kana":"オオタ",
     "hira":"おおた",
     "roma":"oota"
-  },
-  "026":{
-    "code":"026",
-    "name":"水府",
-    "kana":"スイフ",
-    "hira":"すいふ",
-    "roma":"suifu"
   },
   "028":{
     "code":"028",
@@ -131,13 +110,6 @@
     "kana":"カナサゴウ",
     "hira":"かなさごう",
     "roma":"kanasagou"
-  },
-  "034":{
-    "code":"034",
-    "name":"五浦",
-    "kana":"イヅウラ",
-    "hira":"いづうら",
-    "roma":"iduura"
   },
   "035":{
     "code":"035",
@@ -160,13 +132,6 @@
     "hira":"じゆうおう",
     "roma":"jiyuuou"
   },
-  "038":{
-    "code":"038",
-    "name":"日高",
-    "kana":"ヒダカ",
-    "hira":"ひだか",
-    "roma":"hidaka"
-  },
   "039":{
     "code":"039",
     "name":"日立",
@@ -180,13 +145,6 @@
     "kana":"ミナミ",
     "hira":"みなみ",
     "roma":"minami"
-  },
-  "041":{
-    "code":"041",
-    "name":"中里",
-    "kana":"ナカザト",
-    "hira":"なかざと",
-    "roma":"nakazato"
   },
   "100":{
     "code":"100",

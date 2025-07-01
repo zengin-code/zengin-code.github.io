@@ -69,13 +69,6 @@
     "hira":"ようご",
     "roma":"yougo"
   },
-  "022":{
-    "code":"022",
-    "name":"湊町",
-    "kana":"ミナトマチ",
-    "hira":"みなとまち",
-    "roma":"minatomachi"
-  },
   "023":{
     "code":"023",
     "name":"中央通",
@@ -243,13 +236,6 @@
     "kana":"オオニシ",
     "hira":"おおにし",
     "roma":"oonishi"
-  },
-  "062":{
-    "code":"062",
-    "name":"港南",
-    "kana":"コウナン",
-    "hira":"こうなん",
-    "roma":"kounan"
   },
   "066":{
     "code":"066",

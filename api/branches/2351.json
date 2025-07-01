@@ -27,13 +27,6 @@
     "hira":"やまきど",
     "roma":"yamakido"
   },
-  "006":{
-    "code":"006",
-    "name":"学校町",
-    "kana":"ガツコウチヨウ",
-    "hira":"がつこうちよう",
-    "roma":"gatsukouchiyou"
-  },
   "007":{
     "code":"007",
     "name":"小針",
@@ -120,10 +113,10 @@
   },
   "019":{
     "code":"019",
-    "name":"荒川町",
-    "kana":"アラカワマチ",
-    "hira":"あらかわまち",
-    "roma":"arakawamachi"
+    "name":"荒川",
+    "kana":"アラカワ",
+    "hira":"あらかわ",
+    "roma":"arakawa"
   },
   "020":{
     "code":"020",

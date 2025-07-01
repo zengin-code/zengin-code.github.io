@@ -69,26 +69,12 @@
     "hira":"ひたち",
     "roma":"hitachi"
   },
-  "177":{
-    "code":"177",
-    "name":"多賀",
-    "kana":"タガ",
-    "hira":"たが",
-    "roma":"taga"
-  },
   "178":{
     "code":"178",
     "name":"磯原",
     "kana":"イソハラ",
     "hira":"いそはら",
     "roma":"isohara"
-  },
-  "179":{
-    "code":"179",
-    "name":"神栖",
-    "kana":"カミス",
-    "hira":"かみす",
-    "roma":"kamisu"
   },
   "180":{
     "code":"180",
@@ -300,13 +286,6 @@
     "hira":"ぐんまけんちよう",
     "roma":"gummakenchiyou"
   },
-  "225":{
-    "code":"225",
-    "name":"前橋東出張所",
-    "kana":"マエバシヒガシ",
-    "hira":"まえばしひがし",
-    "roma":"maebashihigashi"
-  },
   "227":{
     "code":"227",
     "name":"高崎東",
@@ -419,13 +398,6 @@
     "hira":"さやま",
     "roma":"sayama"
   },
-  "258":{
-    "code":"258",
-    "name":"所沢",
-    "kana":"トコロザワ",
-    "hira":"ところざわ",
-    "roma":"tokorozawa"
-  },
   "261":{
     "code":"261",
     "name":"千葉",
@@ -502,13 +474,6 @@
     "kana":"ナリタ",
     "hira":"なりた",
     "roma":"narita"
-  },
-  "274":{
-    "code":"274",
-    "name":"八千代",
-    "kana":"ヤチヨ",
-    "hira":"やちよ",
-    "roma":"yachiyo"
   },
   "275":{
     "code":"275",
@@ -825,13 +790,6 @@
     "hira":"ひらつか",
     "roma":"hiratsuka"
   },
-  "332":{
-    "code":"332",
-    "name":"川崎南",
-    "kana":"カワサキミナミ",
-    "hira":"かわさきみなみ",
-    "roma":"kawasakiminami"
-  },
   "333":{
     "code":"333",
     "name":"座間",
@@ -852,13 +810,6 @@
     "kana":"ハタノ",
     "hira":"はたの",
     "roma":"hatano"
-  },
-  "336":{
-    "code":"336",
-    "name":"新百合丘出張所",
-    "kana":"シンユリガオカ",
-    "hira":"しんゆりがおか",
-    "roma":"shinyurigaoka"
   },
   "337":{
     "code":"337",
@@ -929,12 +880,5 @@
     "kana":"カシマ",
     "hira":"かしま",
     "roma":"kashima"
-  },
-  "979":{
-    "code":"979",
-    "name":"大雄山",
-    "kana":"ダイユウザン",
-    "hira":"だいゆうざん",
-    "roma":"daiyuuzan"
   }
 }

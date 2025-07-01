@@ -6,20 +6,6 @@
     "hira":"ほんてん",
     "roma":"honten"
   },
-  "002":{
-    "code":"002",
-    "name":"苫小牧",
-    "kana":"トマコマイ",
-    "hira":"とまこまい",
-    "roma":"tomakomai"
-  },
-  "003":{
-    "code":"003",
-    "name":"旭川",
-    "kana":"アサヒカワ",
-    "hira":"あさひかわ",
-    "roma":"asahikawa"
-  },
   "005":{
     "code":"005",
     "name":"北東北盛岡",
@@ -40,5 +26,12 @@
     "kana":"トウホク",
     "hira":"とうほく",
     "roma":"touhoku"
+  },
+  "100":{
+    "code":"100",
+    "name":"おおぞら",
+    "kana":"オオゾラ",
+    "hira":"おおぞら",
+    "roma":"oozora"
   }
 }

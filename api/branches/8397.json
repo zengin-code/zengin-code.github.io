@@ -6,13 +6,6 @@
     "hira":"ほんしよ",
     "roma":"honshiyo"
   },
-  "002":{
-    "code":"002",
-    "name":"高津",
-    "kana":"タカツ",
-    "hira":"たかつ",
-    "roma":"takatsu"
-  },
   "004":{
     "code":"004",
     "name":"川東",
@@ -34,47 +27,19 @@
     "hira":"じようぶにし",
     "roma":"jiyoubunishi"
   },
-  "012":{
-    "code":"012",
-    "name":"金子",
-    "kana":"カネコ",
-    "hira":"かねこ",
-    "roma":"kaneko"
-  },
-  "021":{
-    "code":"021",
-    "name":"西条",
-    "kana":"サイジヨウ",
-    "hira":"さいじよう",
-    "roma":"saijiyou"
-  },
-  "022":{
-    "code":"022",
-    "name":"飯岡",
-    "kana":"イイオカ",
-    "hira":"いいおか",
-    "roma":"iioka"
-  },
-  "023":{
-    "code":"023",
-    "name":"玉津",
-    "kana":"タマツ",
-    "hira":"たまつ",
-    "roma":"tamatsu"
-  },
   "024":{
     "code":"024",
-    "name":"中央",
-    "kana":"チユウオウ",
-    "hira":"ちゆうおう",
-    "roma":"chiyuuou"
+    "name":"西条中央",
+    "kana":"サイジヨウチユウオウ",
+    "hira":"さいじようちゆうおう",
+    "roma":"saijiyouchiyuuou"
   },
   "025":{
     "code":"025",
-    "name":"大町",
-    "kana":"オオマチ",
-    "hira":"おおまち",
-    "roma":"oomachi"
+    "name":"西条川東",
+    "kana":"サイジヨウカワヒガシ",
+    "hira":"さいじようかわひがし",
+    "roma":"saijiyoukawahigashi"
   },
   "026":{
     "code":"026",

@@ -132,13 +132,6 @@
     "hira":"あさひがおか",
     "roma":"asahigaoka"
   },
-  "023":{
-    "code":"023",
-    "name":"蘇南",
-    "kana":"ソナン",
-    "hira":"そなん",
-    "roma":"sonan"
-  },
   "024":{
     "code":"024",
     "name":"守山",
@@ -166,27 +159,6 @@
     "kana":"ミズナミ",
     "hira":"みずなみ",
     "roma":"mizunami"
-  },
-  "030":{
-    "code":"030",
-    "name":"土岐口",
-    "kana":"トキグチ",
-    "hira":"ときぐち",
-    "roma":"tokiguchi"
-  },
-  "031":{
-    "code":"031",
-    "name":"肥田",
-    "kana":"ヒダ",
-    "hira":"ひだ",
-    "roma":"hida"
-  },
-  "033":{
-    "code":"033",
-    "name":"坂上",
-    "kana":"サカウエ",
-    "hira":"さかうえ",
-    "roma":"sakaue"
   },
   "034":{
     "code":"034",
@@ -285,13 +257,6 @@
     "kana":"オロシ",
     "hira":"おろし",
     "roma":"oroshi"
-  },
-  "048":{
-    "code":"048",
-    "name":"釜戸",
-    "kana":"カマド",
-    "hira":"かまど",
-    "roma":"kamado"
   },
   "049":{
     "code":"049",

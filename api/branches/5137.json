@@ -69,13 +69,6 @@
     "hira":"なかはら",
     "roma":"nakahara"
   },
-  "011":{
-    "code":"011",
-    "name":"四之宮",
-    "kana":"シノミヤ",
-    "hira":"しのみや",
-    "roma":"shinomiya"
-  },
   "013":{
     "code":"013",
     "name":"神田",
@@ -145,12 +138,5 @@
     "kana":"オオタ",
     "hira":"おおた",
     "roma":"oota"
-  },
-  "038":{
-    "code":"038",
-    "name":"石田",
-    "kana":"イシダ",
-    "hira":"いしだ",
-    "roma":"ishida"
   }
 }

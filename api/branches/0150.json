@@ -20,20 +20,6 @@
     "hira":"しんじゆく",
     "roma":"shinjiyuku"
   },
-  "160":{
-    "code":"160",
-    "name":"大宮出張所",
-    "kana":"オオミヤ",
-    "hira":"おおみや",
-    "roma":"oomiya"
-  },
-  "170":{
-    "code":"170",
-    "name":"千葉出張所",
-    "kana":"チバ",
-    "hira":"ちば",
-    "roma":"chiba"
-  },
   "180":{
     "code":"180",
     "name":"個人専用",
@@ -307,13 +293,6 @@
     "hira":"いとう",
     "roma":"itou"
   },
-  "611":{
-    "code":"611",
-    "name":"伊東駅",
-    "kana":"イトウエキ",
-    "hira":"いとうえき",
-    "roma":"itoueki"
-  },
   "620":{
     "code":"620",
     "name":"三島セントラル",
@@ -426,13 +405,6 @@
     "hira":"ふじのみや",
     "roma":"fujinomiya"
   },
-  "665":{
-    "code":"665",
-    "name":"富士",
-    "kana":"フジ",
-    "hira":"ふじ",
-    "roma":"fuji"
-  },
   "671":{
     "code":"671",
     "name":"小山",
@@ -496,33 +468,12 @@
     "hira":"いずながおか",
     "roma":"izunagaoka"
   },
-  "684":{
-    "code":"684",
-    "name":"中伊豆",
-    "kana":"ナカイズ",
-    "hira":"なかいず",
-    "roma":"nakaizu"
-  },
   "691":{
     "code":"691",
     "name":"下田",
     "kana":"シモダ",
     "hira":"しもだ",
     "roma":"shimoda"
-  },
-  "693":{
-    "code":"693",
-    "name":"松崎",
-    "kana":"マツザキ",
-    "hira":"まつざき",
-    "roma":"matsuzaki"
-  },
-  "694":{
-    "code":"694",
-    "name":"伊豆稲取",
-    "kana":"イズイナトリ",
-    "hira":"いずいなとり",
-    "roma":"izuinatori"
   },
   "696":{
     "code":"696",
@@ -622,13 +573,6 @@
     "hira":"ふじえだ",
     "roma":"fujieda"
   },
-  "750":{
-    "code":"750",
-    "name":"島田",
-    "kana":"シマダ",
-    "hira":"しまだ",
-    "roma":"shimada"
-  },
   "771":{
     "code":"771",
     "name":"岡部",
@@ -649,13 +593,6 @@
     "kana":"フクロイ",
     "hira":"ふくろい",
     "roma":"fukuroi"
-  },
-  "820":{
-    "code":"820",
-    "name":"磐田",
-    "kana":"イワタ",
-    "hira":"いわた",
-    "roma":"iwata"
   },
   "830":{
     "code":"830",
@@ -678,13 +615,6 @@
     "hira":"はままつきた",
     "roma":"hamamatsukita"
   },
-  "840":{
-    "code":"840",
-    "name":"天竜",
-    "kana":"テンリユウ",
-    "hira":"てんりゆう",
-    "roma":"tenriyuu"
-  },
   "850":{
     "code":"850",
     "name":"ＡＮＡ",
@@ -701,10 +631,10 @@
   },
   "855":{
     "code":"855",
-    "name":"Ｔポイント",
-    "kana":"テイポイント",
-    "hira":"ていぽいんと",
-    "roma":"teipointo"
+    "name":"Ｖポイント",
+    "kana":"ブイポイント",
+    "hira":"ぶいぽいんと",
+    "roma":"buipointo"
   },
   "856":{
     "code":"856",
@@ -713,26 +643,12 @@
     "hira":"りくる－と",
     "roma":"rikuru-to"
   },
-  "871":{
-    "code":"871",
-    "name":"金谷",
-    "kana":"カナヤ",
-    "hira":"かなや",
-    "roma":"kanaya"
-  },
   "872":{
     "code":"872",
     "name":"榛原",
     "kana":"ハイバラ",
     "hira":"はいばら",
     "roma":"haibara"
-  },
-  "873":{
-    "code":"873",
-    "name":"相良",
-    "kana":"サガラ",
-    "hira":"さがら",
-    "roma":"sagara"
   },
   "881":{
     "code":"881",
@@ -754,26 +670,5 @@
     "kana":"ナゴヤ",
     "hira":"なごや",
     "roma":"nagoya"
-  },
-  "930":{
-    "code":"930",
-    "name":"札幌",
-    "kana":"サツポロ",
-    "hira":"さつぽろ",
-    "roma":"satsuporo"
-  },
-  "935":{
-    "code":"935",
-    "name":"福岡",
-    "kana":"フクオカ",
-    "hira":"ふくおか",
-    "roma":"fukuoka"
-  },
-  "940":{
-    "code":"940",
-    "name":"大阪",
-    "kana":"オオサカ",
-    "hira":"おおさか",
-    "roma":"oosaka"
   }
 }
